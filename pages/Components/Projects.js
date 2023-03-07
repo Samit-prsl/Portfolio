@@ -25,7 +25,7 @@ export default function Projects() {
 
       ></Typewriter></h2>
         <div className=" grid md:grid-cols-2 gap-8 mx-auto py-5">
-            <div className=' relative flex items-center justify-center h-[100%] w-full shadow-xl shadow-gray-400 rounded-xl group  p-4 hover:bg-gradient-to-r from from-white to-teal-600 mx-auto'>
+            <div className=' relative flex items-center justify-center h-[100%] w-full shadow-md shadow-gray-400 rounded-xl group  p-4 hover:bg-gradient-to-r from from-white to-teal-600 mx-auto'>
                 <Image className=' rounded-xl group-hover:opacity-10 mx-auto' src={pic12} alt='...'/>
                 <div className=' hidden group-hover:block absolute text-center'>
                     <h3 className=' text-2xl font-semibold' style={{fontFamily:'Quicksand, sans-serif'}}>The News App</h3>
@@ -33,7 +33,7 @@ export default function Projects() {
                     <button className=' text-white bg-blue-600 rounded-md p-3 mt-5'><Link href='https://newzbuzzby-samit.netlify.app/' target={'_blank'}>More Info</Link></button>
                 </div>
             </div>
-            <div className=' relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group  p-4 hover:bg-gradient-to-r from from-white to-teal-600 mx-auto'>
+            <div className=' relative flex items-center justify-center h-auto w-full shadow-md shadow-gray-400 rounded-xl group  p-4 hover:bg-gradient-to-r from from-white to-teal-600 mx-auto'>
                 <Image className=' rounded-xl group-hover:opacity-10 mx-auto' src={pic2} alt='...'/>
                 <div className=' hidden group-hover:block absolute text-center'>
                     <h3 className=' text-2xl font-semibold' style={{fontFamily:'Quicksand, sans-serif'}}>The Weather App</h3>
