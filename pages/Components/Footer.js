@@ -13,11 +13,11 @@ export default function Footer() {
         "Nothing more , just trust the process"
       </div>
       <div className=' md:flex-col py-5 ml-3 text-center'>
-        <Link href="/" className=' text-xl p-2'>Home</Link>
-        <Link href="/#About" className=' text-xl p-2'>About</Link>
-        <Link href="/#Skills" className=' text-xl p-2'>Skills</Link>
-        <Link href="/#Projects" className=' text-xl p-2'>Projects</Link>
-        <Link href="/#Contact" className=' text-xl p-2'>Contact</Link>
+        <Link href="/" className=' text-xl p-1'>Home</Link>
+        <Link href="/#About" className=' text-xl p-1'>About</Link>
+        <Link href="/#Skills" className=' text-xl p-1'>Skills</Link>
+        <Link href="/#Projects" className=' text-xl p-1'>Projects</Link>
+        <Link href="/#Contact" className=' text-xl p-1'>Contact</Link>
       </div>
       <div className=' p-5 text-5xl flex justify-center text-gray-700 gap-8 text-center'>
         <a href="https://twitter.com/SamitPrsl" target={'_blank'}><AiFillTwitterCircle/></a>
