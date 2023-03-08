@@ -1,1 +1,1 @@
-Its my *Portfolio* made by Next.JS and TailwindCSS.
+Its my *Portfolio* made using Next.JS and TailwindCSS.
