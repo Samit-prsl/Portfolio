@@ -20,7 +20,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydGZvbGlvJTIwaW1hZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet"/>
@@ -29,7 +29,7 @@ export default function Home() {
        <main className='bg-white px-10 min-h-screen dark:bg-gray-800 '>
         <section className='bg-white dark:bg-gray-800 dark:text-white'>
         <div className=' py-10 mb-12 flex justify-between'>
-            <h1 className=' text-2xl  font-bold' style={{fontFamily:'Kanit,sans-serif'}}>DevelopedByMe</h1>
+            <h1 className=' text-2xl  font-bold' style={{fontFamily:'Kanit,sans-serif'}}><a href='/'>DevelopedByMe</a></h1>
             <ul className=' flex items-center'>
                 <li><BsFillMoonStarsFill onClick={()=>{
                   SetdarkMode(!darkMode)
