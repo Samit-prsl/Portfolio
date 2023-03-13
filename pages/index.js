@@ -24,8 +24,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet"/>
-
-      </Head>
+        </Head>
        <main className='bg-white px-10 min-h-screen dark:bg-gray-800 '>
         <section className='bg-white dark:bg-gray-800 dark:text-white'>
         <div className=' py-10 mb-12 flex justify-between'>
@@ -33,8 +32,8 @@ export default function Home() {
             <ul className=' flex items-center'>
                 <li><BsFillMoonStarsFill onClick={()=>{
                   SetdarkMode(!darkMode)
-                }} className=' cursor-pointer text-2xl ml-4'/></li>
-                <li><a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-4'  href="resume.pdf" download='resume.pdf'>Resume</a></li>
+                }} title='Dark Mode' className=' cursor-pointer text-2xl ml-4'/></li>
+                <li><a title='Click to download Resume' className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-4'  href="resume.pdf" download='resume.pdf'>Resume</a></li>
             </ul>
         </div>
       </section> 
