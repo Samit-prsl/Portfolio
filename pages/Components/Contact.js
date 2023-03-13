@@ -27,7 +27,7 @@ export default function Contact() {
               <input type="text" name='username' placeholder='Your Name!'autoComplete='off' required className=' m-3 p-3
               rounded-md bg-gradient-to-br from-teal-100 to-teal-300 placeholder:text-black' />
               <input type="Email" name='Email' placeholder='Your Email!'autoComplete='off' required className=' m-3 p-3  rounded-md bg-gradient-to-br from-teal-100 to-teal-300  placeholder:text-black'/>
-              <textarea name="message" id="" cols="27" rows="6" autoComplete='off' placeholder='Write Something!' required className=' m-3 p-3  rounded-md bg-gradient-to-br from-teal-100 to-teal-300  placeholder:text-black' ></textarea>
+              <textarea name="message" id="" cols="25" rows="6" autoComplete='off' placeholder='Write Something!' required className=' m-3 p-3  rounded-md bg-gradient-to-br from-teal-100 to-teal-300  placeholder:text-black' ></textarea>
               <div> <input type="submit" value='Send' title='Click Here to Send' className=' m-5 p-3 bg-gradient-to-r from-cyan-700 to-teal-700 text-white px-4 py-2 rounded-md cursor-pointer' /></div> 
             </form>
            
