@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import pic12 from '/public/pic12.png'
 import pic2 from '/public/pic2.png'
-import pic3 from '/public/pic3.png'
 import Link from 'next/link'
 import Typewriter from 'typewriter-effect'
 import { useState } from 'react'
@@ -18,12 +17,10 @@ export default function Projects() {
             loop:true,
             delay:30,
             strings:[
-              "What I've Cooked.",
-              
+              "What I've Cooked.";    
             ]
           }}
-
-      ></Typewriter></h2>
+        ></Typewriter></h2>
         <div className=" grid md:grid-cols-2 gap-8 mx-auto py-5">
             <div className=' relative flex items-center justify-center h-[100%] w-full shadow-md shadow-gray-400 rounded-xl group  p-4 hover:bg-gradient-to-r from from-white to-teal-600 mx-auto'>
                 <Image className=' rounded-xl group-hover:opacity-10 mx-auto' src={pic12} alt='...'/>
