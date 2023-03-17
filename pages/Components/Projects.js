@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import pic12 from '/public/pic12.png'
 import pic2 from '/public/pic2.png'
-import pic3 from '/public/pic3.png'
+//import pic3 from '/public/pic3.png'
 import Link from 'next/link'
 import Typewriter from 'typewriter-effect'
 import { useState } from 'react'
@@ -18,7 +18,7 @@ export default function Projects() {
             loop:true,
             delay:30,
             strings:[
-              "What I've Cooked.";    
+              "What I've Cooked."  
             ]
           }}
         ></Typewriter></h2>
