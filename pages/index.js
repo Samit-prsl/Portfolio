@@ -37,19 +37,13 @@ export default function Home() {
             </ul>
         </div>
       </section> 
-      
-        <Main className=' dark:text-white'/>
+      <Main className=' dark:text-white'/>
         <Projects/>
         <Contact/>
-        
-       </main>
+      </main>
        <div className={darkMode ? "dark" : ''}>
        <Footer/>
        </div>
-       
-       
-       
-     
-    </div>
+       </div>
   )
 }
