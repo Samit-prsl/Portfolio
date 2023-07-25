@@ -54,17 +54,17 @@ export default function Projects() {
             <div className=' relative flex items-center justify-center h-[100%] w-full shadow-md shadow-gray-400 rounded-xl group  p-4 hover:bg-gradient-to-r from from-white to-teal-600 mx-auto'>
                 <Image className=' rounded-xl group-hover:opacity-10 mx-auto' src={yt} alt='...'/>
                 <div className=' hidden group-hover:block absolute text-center'>
-                    <h3 className=' text-2xl font-semibold pb-5' style={{fontFamily:'Quicksand, sans-serif'}}>Downloading CLI tool</h3>
-                    <p className=' text-xl font-semibold' style={{fontFamily:'Quicksand, sans-serif'}}>A Simple CLI tool for downloading YouTube videos and converting it into mp3.</p>
-                    <button className=' text-white bg-blue-600 rounded-md p-3 mt-5'><Link href='https://github.com/Samit-prsl/Yt-Downloader#readme' target={'_blank'}>Have a watch</Link></button>
+                    <h3 className=' text-md font-semibold pb-5' style={{fontFamily:'Quicksand, sans-serif'}}>Downloading CLI tool</h3>
+                    <p className=' text-sm font-semibold' style={{fontFamily:'Quicksand, sans-serif'}}>A Simple CLI tool for downloading YouTube videos and converting it into mp3.</p>
+                    <button className=' text-white bg-blue-600 rounded-md p-2 mt-5'><Link href='https://github.com/Samit-prsl/Yt-Downloader#readme' target={'_blank'}>Have a watch</Link></button>
                 </div>
             </div>
             <div className=' relative flex items-center justify-center h-[100%] w-full shadow-md shadow-gray-400 rounded-xl group  p-4 hover:bg-gradient-to-r from from-white to-teal-600 mx-auto'>
                 <Image className=' rounded-xl group-hover:opacity-10 mx-auto' src={email} alt='...'/>
                 <div className=' hidden group-hover:block absolute text-center'>
-                    <h3 className=' text-2xl font-semibold pb-5' style={{fontFamily:'Quicksand, sans-serif'}}>Email Scraper chrome extension</h3>
-                    <p className=' text-xl font-semibold' style={{fontFamily:'Quicksand, sans-serif'}}>A chrome extension to fetch all the Email addresses present in the webpage in a click!</p>
-                    <button className=' text-white bg-blue-600 rounded-md p-3 mt-5'><Link href='https://github.com/Samit-prsl/Email_Scraper-extension' target={'_blank'}>Have a watch</Link></button>
+                    <h3 className=' text-md font-semibold pb-5' style={{fontFamily:'Quicksand, sans-serif'}}>Email Scraper chrome extension</h3>
+                    <p className=' text-sm font-semibold' style={{fontFamily:'Quicksand, sans-serif'}}>A chrome extension to fetch all the Email addresses present in the webpage in a click!</p>
+                    <button className=' text-white bg-blue-600 rounded-md p-2 mt-5'><Link href='https://github.com/Samit-prsl/Email_Scraper-extension' target={'_blank'}>Have a watch</Link></button>
                 </div>
             </div> <div className=' relative flex items-center justify-center h-[100%] w-full shadow-md shadow-gray-400 rounded-xl group  p-4 hover:bg-gradient-to-r from from-white to-teal-600 mx-auto'>
                 <Image className=' rounded-xl group-hover:opacity-10 mx-auto' src={gym} alt='...'/>
