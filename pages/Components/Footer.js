@@ -12,14 +12,14 @@ export default function Footer() {
       <div className='text-xl font-semibold p-5 text-center' style={{fontFamily:'Quicksand, sans-serif'}}>
         "Nothing more , just trust the process"
       </div>
-      <div className=' md:flex-col py-5 ml-3 text-center'>
+      <div className='  py-5 ml-3 text-center'>
         <Link href="/" className=' text-xl p-1'>Home</Link>
         <Link href="/#About" className=' text-xl p-1'>About</Link>
         <Link href="/#Skills" className=' text-xl p-1'>Skills</Link>
         <Link href="/#Projects" className=' text-xl p-1'>Projects</Link>
         <Link href="/#Contact" className=' text-xl p-1'>Contact</Link>
       </div>
-      <div className=' p-5 text-5xl flex justify-center text-gray-700 gap-8 text-center'>
+      <div className=' p-5 text-4xl flex justify-center text-gray-700 gap-8 text-center'>
         <a href="https://twitter.com/SamitPrsl" target={'_blank'}><AiFillTwitterCircle/></a>
         <a href="https://www.linkedin.com/in/samit-bhattacharjee-96b19b260/" target={'_blank'}><AiFillLinkedin/></a>
         <a href="https://github.com/Samit-prsl" target={'_blank'}><AiFillGithub/></a>
