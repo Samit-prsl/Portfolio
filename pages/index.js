@@ -41,7 +41,7 @@ export default function Home() {
                     SetdarkMode(!darkMode)
                   }} title='Dark Mode' className=' cursor-pointer text-2xl ml-4'/>)}
                 </li>
-                <li><a title='Click to download Resume' className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-4'  href="resume-1.pdf" download='Samitresume.pdf'>Resume</a></li>
+                <li><a title='Click to download Resume' className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-4'  href="resume.pdf" download='Samitresume.pdf'>Resume</a></li>
             </ul>
         </div>
       </section> 
